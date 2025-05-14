@@ -1,0 +1,65 @@
+/* Definindo o estilo geral do corpo */
+body {
+    font-family: 'Roboto', sans-serif; /* Alterando para a fonte Roboto */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para o header */
+header {
+    background-color: #006400;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Estilo para o título principal */
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Estilo para o container principal */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+/* Estilo para as seções */
+.section {
+    margin-bottom: 2rem;
+}
+
+/* Estilo para os títulos das seções */
+.section h2 {
+    color: #013c01;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700; /* Fonte em negrito */
+}
+
+/* Estilo para o parágrafo das seções */
+.section p {
+    font-size: 1.1rem;
+}
+
+/* Estilo para as imagens das seções */
+.section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
